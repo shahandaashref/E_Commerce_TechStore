@@ -1,0 +1,30 @@
+{
+    "@@locale": "en",
+    "appTitle": "Tech Store",
+    "login": "Sign In",
+    "welcomeBack": "Welcome Back!",
+    "welcomeBackSubtitle": "Sign in to continue shopping",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot Password?",
+    "loginButton": "Sign In",
+    "noAccount": "Don't have an account?",
+    "signUp": "Sign Up",
+    "emailrequird":"Email is required",
+    "passwordrequird":"Password is required",
+    "emailhint":"user@email.com",
+    "createAccount":"Create Account",
+    "createAccountSubtitle":"Sign up to get started",
+    "signupButton":"Sign Up",
+    "confirmPassword": "Confirm Password",
+    "confirmpasswordrequird":"Confirm Password is required",
+    "passwordnotmatch":"Passwords do not match",
+    "fullName":"Full Name",
+    "fullNamerequird":"Full Name is required",
+    "userName":"User Name",
+    "or":"OR",
+    "continueWithGoogle":"Continue with Google",
+    "haveAccount":"Already have an account?"
+    
+
+}
