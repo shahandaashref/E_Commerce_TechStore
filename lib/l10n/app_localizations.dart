@@ -247,6 +247,156 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Already have an account?'**
   String get haveAccount;
+
+  /// No description provided for @discoverTechDeals.
+  ///
+  /// In en, this message translates to:
+  /// **'Discover amazing tech deals'**
+  String get discoverTechDeals;
+
+  /// No description provided for @searchHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Search for products...'**
+  String get searchHint;
+
+  /// No description provided for @shopNow.
+  ///
+  /// In en, this message translates to:
+  /// **'Shop Now'**
+  String get shopNow;
+
+  /// No description provided for @nowYearSale.
+  ///
+  /// In en, this message translates to:
+  /// **'Now Year\'s Sale'**
+  String get nowYearSale;
+
+  /// No description provided for @categories.
+  ///
+  /// In en, this message translates to:
+  /// **'Categories'**
+  String get categories;
+
+  /// No description provided for @seeAll.
+  ///
+  /// In en, this message translates to:
+  /// **'See All'**
+  String get seeAll;
+
+  /// No description provided for @featuredProducts.
+  ///
+  /// In en, this message translates to:
+  /// **'Featured Products'**
+  String get featuredProducts;
+
+  /// No description provided for @bestSellers.
+  ///
+  /// In en, this message translates to:
+  /// **'Best Sellers'**
+  String get bestSellers;
+
+  /// No description provided for @productdetails.
+  ///
+  /// In en, this message translates to:
+  /// **'Product Details'**
+  String get productdetails;
+
+  /// No description provided for @addToCart.
+  ///
+  /// In en, this message translates to:
+  /// **'Add to Cart'**
+  String get addToCart;
+
+  /// No description provided for @reviews.
+  ///
+  /// In en, this message translates to:
+  /// **'Customer Reviews'**
+  String get reviews;
+
+  /// No description provided for @addreview.
+  ///
+  /// In en, this message translates to:
+  /// **'Add Review'**
+  String get addreview;
+
+  /// No description provided for @viewAllReviews.
+  ///
+  /// In en, this message translates to:
+  /// **'View All Reviews'**
+  String get viewAllReviews;
+
+  /// No description provided for @relatedProducts.
+  ///
+  /// In en, this message translates to:
+  /// **'Related Products'**
+  String get relatedProducts;
+
+  /// No description provided for @cart.
+  ///
+  /// In en, this message translates to:
+  /// **'Cart'**
+  String get cart;
+
+  /// No description provided for @total.
+  ///
+  /// In en, this message translates to:
+  /// **'Total'**
+  String get total;
+
+  /// No description provided for @buyNow.
+  ///
+  /// In en, this message translates to:
+  /// **'Buy Now'**
+  String get buyNow;
+
+  /// No description provided for @checkout.
+  ///
+  /// In en, this message translates to:
+  /// **'Checkout'**
+  String get checkout;
+
+  /// No description provided for @yourcartisempty.
+  ///
+  /// In en, this message translates to:
+  /// **'Your cart is empty'**
+  String get yourcartisempty;
+
+  /// No description provided for @remove.
+  ///
+  /// In en, this message translates to:
+  /// **'Remove'**
+  String get remove;
+
+  /// No description provided for @quantity.
+  ///
+  /// In en, this message translates to:
+  /// **'Quantity'**
+  String get quantity;
+
+  /// No description provided for @orderSummary.
+  ///
+  /// In en, this message translates to:
+  /// **'Order Summary'**
+  String get orderSummary;
+
+  /// No description provided for @subtotal.
+  ///
+  /// In en, this message translates to:
+  /// **'Subtotal'**
+  String get subtotal;
+
+  /// No description provided for @shipping.
+  ///
+  /// In en, this message translates to:
+  /// **'Shipping'**
+  String get shipping;
+
+  /// No description provided for @tax.
+  ///
+  /// In en, this message translates to:
+  /// **'Tax'**
+  String get tax;
 }
 
 class _AppLocalizationsDelegate

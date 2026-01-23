@@ -24,7 +24,30 @@
     "userName":"User Name",
     "or":"OR",
     "continueWithGoogle":"Continue with Google",
-    "haveAccount":"Already have an account?"
-    
-
+    "haveAccount":"Already have an account?",
+    "discoverTechDeals":"Discover amazing tech deals",
+    "searchHint":"Search for products...",
+    "shopNow":"Shop Now",
+    "nowYearSale":"Now Year's Sale",
+    "categories":"Categories",
+    "seeAll":"See All",
+    "featuredProducts":"Featured Products",
+    "bestSellers":"Best Sellers",
+    "productdetails":"Product Details",
+    "addToCart":"Add to Cart",
+    "reviews":"Customer Reviews",
+    "addreview":"Add Review",
+    "viewAllReviews":"View All Reviews",
+    "relatedProducts":"Related Products",
+    "cart":"Cart",
+    "total":"Total",
+    "buyNow":"Buy Now",
+    "checkout":"Checkout",
+    "yourcartisempty":"Your cart is empty",
+    "remove":"Remove",
+    "quantity":"Quantity",
+    "orderSummary":"Order Summary",
+    "subtotal":"Subtotal",
+    "shipping":"Shipping",
+    "tax":"Tax"
 }

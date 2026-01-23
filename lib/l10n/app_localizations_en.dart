@@ -82,4 +82,79 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get haveAccount => 'Already have an account?';
+
+  @override
+  String get discoverTechDeals => 'Discover amazing tech deals';
+
+  @override
+  String get searchHint => 'Search for products...';
+
+  @override
+  String get shopNow => 'Shop Now';
+
+  @override
+  String get nowYearSale => 'Now Year\'s Sale';
+
+  @override
+  String get categories => 'Categories';
+
+  @override
+  String get seeAll => 'See All';
+
+  @override
+  String get featuredProducts => 'Featured Products';
+
+  @override
+  String get bestSellers => 'Best Sellers';
+
+  @override
+  String get productdetails => 'Product Details';
+
+  @override
+  String get addToCart => 'Add to Cart';
+
+  @override
+  String get reviews => 'Customer Reviews';
+
+  @override
+  String get addreview => 'Add Review';
+
+  @override
+  String get viewAllReviews => 'View All Reviews';
+
+  @override
+  String get relatedProducts => 'Related Products';
+
+  @override
+  String get cart => 'Cart';
+
+  @override
+  String get total => 'Total';
+
+  @override
+  String get buyNow => 'Buy Now';
+
+  @override
+  String get checkout => 'Checkout';
+
+  @override
+  String get yourcartisempty => 'Your cart is empty';
+
+  @override
+  String get remove => 'Remove';
+
+  @override
+  String get quantity => 'Quantity';
+
+  @override
+  String get orderSummary => 'Order Summary';
+
+  @override
+  String get subtotal => 'Subtotal';
+
+  @override
+  String get shipping => 'Shipping';
+
+  @override
+  String get tax => 'Tax';
 }

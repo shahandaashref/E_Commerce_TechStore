@@ -1,6 +1,7 @@
 import 'package:e_commerce/core/theme/app_theme.dart';
 import 'package:e_commerce/l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class ContinueWithGoogle extends StatelessWidget {
   const ContinueWithGoogle({super.key});
@@ -25,14 +26,11 @@ class ContinueWithGoogle extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            
-            
-            Image.asset(
-              'assets/images/google.png',
-              height: 24,
-              width: 24,
+            FaIcon(
+              FontAwesomeIcons.google,
+              size: 24,
             ),
-            SizedBox(width: 10),
+            SizedBox(height: 10),
             Text(
               localization!.continueWithGoogle,
               style: theme.textTheme.displaySmall,

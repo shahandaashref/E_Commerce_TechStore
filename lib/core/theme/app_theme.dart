@@ -202,7 +202,9 @@ class ECommerceAppTheme {
           borderRadius: BorderRadius.circular(radiusMd),
           borderSide: BorderSide(color: primary, width: 2.0),
         ),
-        labelStyle: const TextStyle(color: textPrimary),
+        labelStyle: const TextStyle(color: textSecondary),
+        hintStyle: const TextStyle(color: textTertiary),
+        prefixIconColor: textSecondary,
       ),
       
       //elevated button theme
@@ -210,9 +212,11 @@ class ECommerceAppTheme {
         style: ElevatedButton.styleFrom(
           backgroundColor: primary,
           foregroundColor: Colors.white,
+          fixedSize: const Size(double.infinity, 50),
+          elevation: 0,
           padding: EdgeInsets.symmetric(
-            horizontal: 24.0,
-            vertical: 12.0,
+            horizontal: xl,
+            vertical: md,
           ),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(radiusLg),
@@ -225,6 +229,12 @@ class ECommerceAppTheme {
         thickness: 1.0,
         
       ),
+      listTileTheme: ListTileThemeData(
+        iconColor: primary,
+        textColor: textPrimary,
+        
+      ),
+      
           
 
     );

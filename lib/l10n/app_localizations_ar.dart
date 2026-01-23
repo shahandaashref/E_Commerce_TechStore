@@ -82,4 +82,79 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get haveAccount => 'هل لديك حساب بالفعل؟';
+
+  @override
+  String get discoverTechDeals => 'اكتشف عروض التقنية المذهلة';
+
+  @override
+  String get searchHint => 'ابحث عن المنتجات...';
+
+  @override
+  String get shopNow => 'تسوق الآن';
+
+  @override
+  String get nowYearSale => 'تخفيضات رأس السنة';
+
+  @override
+  String get categories => 'التصنيفات';
+
+  @override
+  String get seeAll => 'الكل';
+
+  @override
+  String get featuredProducts => 'المنتجات المميزة';
+
+  @override
+  String get bestSellers => 'الأكثر مبيعاً';
+
+  @override
+  String get productdetails => 'تفاصيل المنتج';
+
+  @override
+  String get addToCart => 'أضف إلى السلة';
+
+  @override
+  String get reviews => 'تقييمات العملاء';
+
+  @override
+  String get addreview => 'أضف تقييم';
+
+  @override
+  String get viewAllReviews => 'عرض جميع التقييمات';
+
+  @override
+  String get relatedProducts => 'منتجات ذات صلة';
+
+  @override
+  String get cart => 'السلة';
+
+  @override
+  String get total => 'المجموع';
+
+  @override
+  String get buyNow => 'اشتري الآن';
+
+  @override
+  String get checkout => 'الدفع';
+
+  @override
+  String get yourcartisempty => 'سلتك فارغة';
+
+  @override
+  String get remove => 'إزالة';
+
+  @override
+  String get quantity => 'الكمية';
+
+  @override
+  String get orderSummary => 'ملخص الطلب';
+
+  @override
+  String get subtotal => 'المجموع الفرعي';
+
+  @override
+  String get shipping => 'الشحن';
+
+  @override
+  String get tax => 'الضريبة';
 }
