@@ -157,4 +157,22 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get tax => 'Tax';
+
+  @override
+  String get placeOrder => 'Place Order';
+
+  @override
+  String get profile => 'Profile';
+
+  @override
+  String get orderHistory => 'Order History';
+
+  @override
+  String get settings => 'Settings';
+
+  @override
+  String get logout => 'Logout';
+
+  @override
+  String get count => 'Count';
 }

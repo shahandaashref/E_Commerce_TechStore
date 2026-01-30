@@ -49,5 +49,12 @@
     "orderSummary":"Order Summary",
     "subtotal":"Subtotal",
     "shipping":"Shipping",
-    "tax":"Tax"
+    "tax":"Tax",
+    "placeOrder":"Place Order",
+    "profile":"Profile",
+    "orderHistory":"Order History",
+    "settings":"Settings",
+    "logout":"Logout",
+    "count":"Count"
+
 }

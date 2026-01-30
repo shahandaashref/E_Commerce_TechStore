@@ -4,6 +4,7 @@ import 'package:e_commerce/features/auth/presentation/widgets/continue_with_goog
 import 'package:e_commerce/features/auth/presentation/widgets/have_or_have_not_account.dart';
 import 'package:e_commerce/features/auth/presentation/widgets/logo.dart';
 import 'package:e_commerce/features/auth/presentation/widgets/or_divider.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 import 'package:e_commerce/core/widgets/custom_bottom.dart';
@@ -121,8 +122,24 @@ class _SignupPageState extends State<SignupPage> {
                 Center(
                   child: CustomBottom(
                     text: localization.signupButton,
-                    onPressed: () {
-                      Navigator.pushReplacementNamed(context, 'login');
+                    
+                    onPressed: () async {
+
+                       try {
+                      await FirebaseAuth.instance
+                          .createUserWithEmailAndPassword(
+                            email: _emailController.text.trim(),
+                            password: _passwordController.text.trim(),
+                          );
+
+                      print("Account Created!");
+                      Navigator.pop(context);
+                    } on FirebaseAuthException catch (e) {
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        SnackBar(content: Text("Error: ${e.message}")),
+                      );
+                    }
+                      
                     },
                   ),
                 ),

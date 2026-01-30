@@ -157,4 +157,22 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get tax => 'الضريبة';
+
+  @override
+  String get placeOrder => 'إتمام الطلب';
+
+  @override
+  String get profile => 'الملف الشخصي';
+
+  @override
+  String get orderHistory => 'تاريخ الطلبات';
+
+  @override
+  String get settings => 'الإعدادات';
+
+  @override
+  String get logout => 'تسجيل الخروج';
+
+  @override
+  String get count => 'العدد';
 }

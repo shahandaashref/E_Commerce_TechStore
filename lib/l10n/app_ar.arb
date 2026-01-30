@@ -49,5 +49,11 @@
     "orderSummary":"ملخص الطلب",
     "subtotal":"المجموع الفرعي",
     "shipping":"الشحن",
-    "tax":"الضريبة"
+    "tax":"الضريبة",
+    "placeOrder":"إتمام الطلب",
+    "profile":"الملف الشخصي",
+    "orderHistory":"تاريخ الطلبات",
+    "settings":"الإعدادات",
+    "logout":"تسجيل الخروج",
+    "count":"العدد"
 }

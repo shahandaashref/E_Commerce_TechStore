@@ -90,11 +90,14 @@ class _ProductDetailsPageState extends State<ProductDetailsPage> {
                     ),
 
                   SizedBox(height: 24),
+                  // Add to Cart and Buy Now Buttons
                 Row(children: [
                   Expanded(
                     child: CustomBottom(
                       text: localizations.addToCart,
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.pushNamed(context, '/cart');
+                      },
                     ),
                     ),
                   SizedBox(width: 16),  

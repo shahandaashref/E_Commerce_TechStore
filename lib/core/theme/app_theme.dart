@@ -170,13 +170,46 @@ class ECommerceAppTheme {
   }
 
   static ThemeData get lightTheme {
-    return ThemeData(
-      primarySwatch: Colors.blue,
-      brightness: Brightness.light,
-      scaffoldBackgroundColor: Colors.white,
-      textTheme: textTheme,
-    );
-  }
+  return ThemeData(
+    useMaterial3: true,
+    brightness: Brightness.light,
+    primaryColor: primary,
+    scaffoldBackgroundColor: Colors.white,
+    
+
+    textTheme: textTheme.apply(
+      bodyColor: const Color(0xFF1E293B),
+      displayColor: const Color(0xFF0F172A), 
+    ),
+    
+    colorScheme: const ColorScheme.light(
+      primary: primary,
+      secondary: secondary,
+      surface: Colors.white,
+      onSurface: Color(0xFF1E293B),
+    ),
+
+    elevatedButtonTheme: ElevatedButtonThemeData(
+      style: ElevatedButton.styleFrom(
+        backgroundColor: primary,
+        foregroundColor: Colors.white,
+        fixedSize: const Size(double.infinity, 50),
+        elevation: 0,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(radiusLg),
+        ),
+        textStyle: textTheme.displayMedium,
+      ),
+    ),
+    
+
+    appBarTheme: const AppBarTheme(
+      backgroundColor: Colors.white,
+      foregroundColor: Color(0xFF1E293B),
+      elevation: 0,
+    ),
+  );
+}
 
   static ThemeData get darkTheme {
     return ThemeData(
@@ -206,6 +239,11 @@ class ECommerceAppTheme {
         hintStyle: const TextStyle(color: textTertiary),
         prefixIconColor: textSecondary,
       ),
+
+      appBarTheme: AppBarTheme(
+        backgroundColor: surface,
+        
+      ),
       
       //elevated button theme
       elevatedButtonTheme: ElevatedButtonThemeData(
@@ -233,6 +271,14 @@ class ECommerceAppTheme {
         iconColor: primary,
         textColor: textPrimary,
         
+      ),
+
+      bottomNavigationBarTheme: BottomNavigationBarThemeData(
+        backgroundColor: surface,
+        selectedItemColor: primary,
+        unselectedItemColor: textSecondary,
+        selectedLabelStyle: textTheme.labelLarge,
+        unselectedLabelStyle: textTheme.labelSmall,
       ),
       
           
