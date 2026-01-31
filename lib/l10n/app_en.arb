@@ -55,6 +55,7 @@
     "orderHistory":"Order History",
     "settings":"Settings",
     "logout":"Logout",
-    "count":"Count"
+    "count":"Count",
+    "proceedcheckout":"Proceed to Checkout"
 
 }

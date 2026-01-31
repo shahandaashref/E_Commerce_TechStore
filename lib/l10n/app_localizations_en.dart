@@ -175,4 +175,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get count => 'Count';
+
+  @override
+  String get proceedcheckout => 'Proceed to Checkout';
 }

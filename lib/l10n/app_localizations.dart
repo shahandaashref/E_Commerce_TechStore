@@ -433,6 +433,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Count'**
   String get count;
+
+  /// No description provided for @proceedcheckout.
+  ///
+  /// In en, this message translates to:
+  /// **'Proceed to Checkout'**
+  String get proceedcheckout;
 }
 
 class _AppLocalizationsDelegate

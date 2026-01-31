@@ -1,12 +1,13 @@
 import 'package:dio/dio.dart';
-import 'package:e_commerce/features/home/data/datasources/home_remote_datasource.dart';
+import 'package:e_commerce/core/api/app_model.dart';
+import 'package:e_commerce/core/constants/app_constants.dart';
 import 'package:pretty_dio_logger/pretty_dio_logger.dart';
 
 class ProductDataApi {
   //TODO: Implement API calls
 
-  static const String baseUrl = 'https://fakestoreapi.com/';
-  final Dio dio =Dio(); 
+  // static const String baseUrl = 'https://fakestoreapi.com/';
+  final Dio dio = Dio();
   ProductDataApi() {
     dio.options = BaseOptions(
       baseUrl: baseUrl,
@@ -52,6 +53,18 @@ class ProductDataApi {
       }
     } catch (e) {
       throw Exception('Failed to add product: $e');
+    }
+  }
+
+  //delete product
+  Future<void> deleteProduct(int id) async {
+    try {
+      final response = await dio.delete('products/$id');
+      if (response.statusCode != 200) {
+        throw Exception('Failed to delete product');
+      }
+    } catch (e) {
+      throw Exception('Failed to delete product: $e');
     }
   }
 }

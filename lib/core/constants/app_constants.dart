@@ -11,3 +11,5 @@ extension ContextExtension on BuildContext {
 
   AppLocalizations get loc => AppLocalizations.of(this)!;
 }
+
+const String baseUrl = 'https://fakestoreapi.com/';

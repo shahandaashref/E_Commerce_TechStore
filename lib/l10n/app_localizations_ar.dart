@@ -175,4 +175,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get count => 'العدد';
+
+  @override
+  String get proceedcheckout => 'الدفع';
 }

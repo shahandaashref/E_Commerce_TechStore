@@ -55,5 +55,6 @@
     "orderHistory":"تاريخ الطلبات",
     "settings":"الإعدادات",
     "logout":"تسجيل الخروج",
-    "count":"العدد"
+    "count":"العدد",
+    "proceedcheckout":"الدفع"
 }

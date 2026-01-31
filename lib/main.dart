@@ -1,5 +1,6 @@
+import 'package:e_commerce/core/providers/product_provider.dart';
 import 'package:e_commerce/core/providers/setting_provider.dart';
-import 'package:e_commerce/features/cart/logic/card_provider.dart';
+import 'package:e_commerce/features/cart/logic/cart_provider.dart';
 import 'package:e_commerce/features/home/logic/home_provider.dart';
 import 'package:e_commerce/firebase_options.dart';
 import 'package:e_commerce/my_app.dart';
@@ -17,8 +18,9 @@ Future<void> main() async {
     MultiProvider(
       providers: [
         ChangeNotifierProvider(create: (context) => SettingsProvider()),
-        ChangeNotifierProvider(create: (_) => ProductsProvider()),
-        ChangeNotifierProvider(create: (_)=>CartProvider(userId: 1)),
+
+        ChangeNotifierProvider(create: (context) => CartProvider()),
+        ChangeNotifierProvider(create: (_) => ProductProvider()),
       ],
 
       child: const MyApp(),

@@ -7,6 +7,6 @@ Container productImageInDetails(String imageUrl) {
       width: double.infinity,
       height: 300,
       color: ECommerceAppTheme.textSecondary,
-      child: Center(child: Image.asset(imageUrl, fit: BoxFit.cover)),
+      child: Center(child: Image.network(imageUrl,fit: BoxFit.cover,)),
     );
   }
