@@ -13,17 +13,17 @@ A modern, fully functional E-Commerce application built with Flutter. The app si
 ### 🔐 Onboarding & Authentication
 | Splash Screen | Login | Register |
 |:---:|:---:|:---:|
-| <img src="![alt text](image.png)" width="200"/> | <img src="![alt text](image-1.png)" width="200"/> | <img src="![alt text](image-2.png)" width="200"/> |
+| <img src=![alt text](image.png) width="200"/> | <img src=![alt text](image-1.png) width="200"/> | <img src=![alt text](image-2.png) width="200"/> |
 
 ### 🛍️ Main App Flow
 | Home (Dark) | Product Details | Cart Screen |
 |:---:|:---:|:---:|
-| <img src="![alt text](image-3.png)" width="200"/> | <img src="![alt text](image-4.png)" width="200"/> | <img src="![alt text](image-5.png)" width="200"/> |
+| <img src=![alt text](image-3.png) width="200"/> | <img src=![alt text](image-4.png) width="200"/> | <img src=![alt text](image-5.png) width="200"/> |
 
 ### 👤 User & Settings
 | Profile | Settings (Light) |
 |:---:|:---:|
-| <img src="![alt text](image-6.png)" width="200"/> | <img src="![alt text](image-7.png)" width="200"/> |
+| <img src=![alt text](image-6.png) width="200"/> | <img src=![alt text](image-7.png) width="200"/> |
 
 
 
