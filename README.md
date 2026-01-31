@@ -25,7 +25,7 @@ A modern, fully functional E-Commerce application built with Flutter. The app si
 |:---:|:---:|
 | <img src="![alt text](image-6.png)" width="200"/> | <img src="![alt text](image-7.png)" width="200"/> |
 
-> *Note: Please ensure the image paths match your assets folder.*
+
 
 ---
 
